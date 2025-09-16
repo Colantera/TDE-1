@@ -30,4 +30,9 @@ public class Livro {
     public String getTitulo() {
         return titulo;
     }
+
+    @Override
+    public String toString() {
+        return titulo + " (" + autor + ", " + ano + ") - Disponível: " + quantidade;
+    }
 }

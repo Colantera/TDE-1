@@ -11,4 +11,9 @@ public class Usuario {
         System.out.println("ERRO: O tipo de usuário não foi definido!");
         return 0;
     }
+
+    @Override
+    public String toString() {
+        return nome + " (" + matricula + ")";
+    }
 }
